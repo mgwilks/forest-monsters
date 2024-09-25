@@ -41,7 +41,7 @@ class Plant:
 
         print(f"Adding together {self.number_of_leaves} and {self.number_of_branches}:")
 
-        total = self.number_of_leaves * self.number_of_branches
+        total = self.number_of_leaves + self.number_of_branches
 
         print(f"--> The total is {total}!")
 
